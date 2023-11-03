@@ -1,0 +1,13 @@
+[package]
+name = "http-rust-outbound-http"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = "1"
+spin-sdk = { git = "https://github.com/fermyon/spin", rev = "d816b512cc541138d489fcbd29ec535b9958f31e" }
+
+[workspace]
